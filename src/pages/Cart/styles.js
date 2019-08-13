@@ -84,6 +84,7 @@ export const Total = styled.div`
   padding: 4px;
   span {
     color: #999;
+    padding: 7 px;
     font-weight: bold;
   }
 

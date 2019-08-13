@@ -17,6 +17,7 @@ export const ProductList = styled.ul`
       max-width: 250px;
       align-self: center;
     }
+
     > strong {
       font-size: 16px;
       line-height: 20px;
@@ -25,7 +26,7 @@ export const ProductList = styled.ul`
     }
 
     > span {
-      font-size: 12px;
+      font-size: 15px;
       font-weight: bold;
       margin: 5px 0 20px;
     }
