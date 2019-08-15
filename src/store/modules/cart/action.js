@@ -5,6 +5,14 @@ export function addToCart(product) {
   };
 }
 
+export function updateAmount(id, amount) {
+  return {
+    type: '@cart/UPDATE_AMOUNT',
+    id,
+    amount,
+  };
+}
+
 export function removeFromCart(id) {
   return {
     type: '@cart/REMOVE',
